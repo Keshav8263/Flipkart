@@ -192,6 +192,9 @@ html,body{
     font-size: 25px;
     color: blue;
 }
+.upper-mobile-shop h2{
+    font-weight: 500;
+}
 .lower-mobile-shop{
     height: 85%;
     width: 100%;
@@ -244,6 +247,70 @@ html,body{
     height: 100%;
     width: 100%;
 }
+.product-box i{
+    display: none;
+}
+.lower-shop{
+    height: 20vw;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 1.5vw;
+   
+}
+.title-lower-shop{
+    height: 15%;
+    width: 98%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    margin-left: 1vw;
+    
+
+}
+.title-lower-shop i{
+    color: blue;
+    font-size: 25px;
+}
+.title-lower-shop h2{
+    font-weight: 500;
+}
+.product-lower-shop{
+    height: 85%;
+    width: 98%;
+    background-color: chartreuse;
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+}
+.beauty-product{
+    height: 100%;
+    width: 100%;
+}
+.product{
+    height: 30vh !important;
+    width: 28vh !important;
+    background-color: blueviolet;
+    margin: 0 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.product-img{
+    height: 80%;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-text{
+    height: 20%;
+    width: 100%;
+    background-color: violet;
+    text-align: center;
+}
+
 
 
 
@@ -330,6 +397,60 @@ html,body{
         margin-right: 0;
         width: 100%;
     }
+    .offer{
+        display: none;
+    }
+    .mobile-shop{
+        width: 100%;
+        /* margin: 0; */
+        margin-left: 0;
+    }
+    .upper-mobile-shop{
+        height: 8vh;
+        width: 100% !important;
+    }
+    .upper-mobile-shop h2{
+        font-size: 18px;
+    }
+    .lower-mobile-shop{
+        /* display: table-column; */
+        height: fit-content;
+        background-color: white;
+
+    }
+    .product-box{
+        width: 100% !important;
+        height: 15vh !important;
+        border-radius: 0;
+        margin: 0;
+        display: flex !important;
+        border: none;
+    }
+    .product-img-box{
+        height: 100%;
+        width: 30%;
+    }
+    .product-name-box{
+        width: 60%;
+        height: 100%;
+        padding-top: 4vh;
+        text-align: start;
+    }
+    .product-box i{
+        display: initial;
+        /* margin-top: 5.5v; */
+        margin-top: 10vw;
+        margin-left: 5vw;
+    }
+   .pp{
+    display: table-cell !important;
+   }
+    .swiper .mySwiper2{
+        display: none;
+    }
+   
+  
+
 }
 
 
