@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(229, 226, 226);
+}
+.Flipkart{
+     height: 100%;
+     width: 100%;
+     background-color: rgb(229, 226, 226);
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.left-nav{
+    height: 100%;
+    width: 20%;
+    /* background-color: blueviolet; */
+}
+.left-nav img{
+    margin-top: 15px;
+}
+.left-nav i{
+     display: none;
+}
+.mid-nav{
+    height: 100%;
+    width: 40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid-nav i{
+    /* padding: 0.7vw; */
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    background-color: rgb(225, 222, 222);
+    border-radius: 10px 0 0 10px;
+}
+.search-input{
+    width: 90%;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(225, 222, 222);
+    padding: 0.6vw;
+    border-radius: 0px 10px 10px 0px;
+}
+.right-nav{
+    height: 100%;
+    width: 40%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right-nav div{
+    display: flex;
+    align-items: center;
+}
+.right-nav div p{
+    margin: 0px 10px;
+}
+.right-nav div i{
+    font-size: 1.5vw;
+}
+.right-nav div .icon{
+    font-size: 10px;
+}
+.lower-nav{
+    height: 10vw;
+    width: 98% !important;
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.nav-box{
+    height: 100%;
+    width: 10%;
+    background-color: white;
+    /* margin-top: 5px; */
+}
+.nav-box img{
+    width: 50%;
+    height: 50%;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.nav-box div p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.nav-box p{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.nav-box .ss{
+    margin-left: 23px;
+}
+.style-home{
+    height: 17vw;
+    width: 98%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+.swiper-wrapper{
+    display: flex;
+    align-items: center;
+}
+.style-box{
+    height: 100%;
+    width: 100%;
+}
+.style-box img{
+    height: 100%;
+    width: 100%;
+}
+.swiper-button-next{
+    background-color: white;
+    padding: 3.5vw 1.5vw;
+    border-radius: 10px 0 0px 10px;
+    font-size: 50px;
+    
+}
+.swiper-button-prev{
+    background-color: white;
+    padding: 3.5vw 1.5vw;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 50px;
+    margin-bottom: 5vh;
+}
+.style-home{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.sbi{
+    height: 8vw;
+    width: 98%;
+    background-color: aqua;
+    margin-left: 15px;
+}
+.sbi img{
+    height: 100%;
+    width: 100%;
+}
+.shop{
+    height: 20vw;
+    width: 100%;
+    background-color: rgb(229, 226, 226);
+    display: flex;
+}
+.mobile-shop{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.offer{
+    height: 100%;
+    width: 20%;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.upper-mobile-shop{
+    height: 15%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.upper-mobile-shop i{
+    font-size: 25px;
+    color: blue;
+}
+.lower-mobile-shop{
+    height: 85%;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.electronics-product{
+    height: 98%;
+    width: 98%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.product-box{
+    height: 30vh !important;
+    width: 28vh !important;
+    /* background-color: blueviolet; */
+    margin: 0 3px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.product-img-box{
+    height: 80%;
+    width: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-name-box{
+    height: 20%;
+    width: 100%;
+    /* background-color: chocolate; */
+    text-align: center;
+}
+.kk img{
+    height: 70% !important;
+    width: 90% !important;
+}
+.cc img{
+    height: 60% !important;
+    width: 90% !important;
+}
+.product-img-box img{
+    height: 80%;
+    width: 75%;
+}
+.offer img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 425px){
+    .nav{
+        justify-content: space-betweens;
+    }
+    .left-nav{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 15px;
+    }
+    .right-nav{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+    .mid-nav{
+        display: none;
+    }
+    .left-nav img{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .left-nav i{
+        font-size: 20px;
+    }
+    .right-nav div .icon{
+        display: none;
+    }
+    .right-nav div .cart{
+        display: none;
+    }
+    .right-nav .gift{
+        display: none;
+    }
+    .right-nav div .menu{
+        display: none;
+    }
+    .right-nav div i{
+        font-size: 20px;
+    }
+    .lower-nav{
+        height: 30vw;
+        width: 100% !important;
+        margin: 0;
+        /* padding: 0px 10px; */
+    }
+    .nav-box{
+        height: fit-content;
+        padding: 0px 10px;
+    }
+    .nav-box p{
+        font-size: 12px;
+    }
+    
+    .style-home{
+        width: 100%;
+        height: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .swiper-button-next{
+        display: none !important;
+    }
+    .swiper-button-prev{
+        display: none !important;
+    }
+    .style-home{
+        height: 18vw !important;
+    }
+    .sbi{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+
+
+
