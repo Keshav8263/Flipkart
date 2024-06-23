@@ -4,9 +4,9 @@ var swiper = new Swiper(".mySwiper", {
     // freeMode: true,
     loop:true,
     mousewheel:true,
-    keyboard:{
-        enabled:true,
-    },
+    // keyboard:{
+    //     enabled:true,
+    // },
     breakpoints: {
         375: {
           slidesPerView: 3,
@@ -54,15 +54,15 @@ var swiper = new Swiper(".mySwiper", {
   var swiper = new Swiper(".mySwiper2", {
     slidesPerView: 4,
     spaceBetween: 10,
-    // freeMode: true,
-    // loop:true,
-    mousewheel:true,
+    freeMode: true,
+    loop:true,
+    // mousewheel:true,
     keyboard:{
         enabled:true,
     },
     // breakpoints: {
     //     375: {
-    //       slidesPerView: 3,
+    //       slidesPerView: 1,
     //       spaceBetween: 0,
     //     },
     //     1024: {
@@ -71,3 +71,25 @@ var swiper = new Swiper(".mySwiper", {
     //     },
     //   }
   });
+
+  var swiper = new Swiper(".mySwiper3", {
+    slidesPerView: 4,
+    spaceBetween: 10,
+    freeMode: true,
+    loop:true,
+    // mousewheel:true,
+    keyboard:{
+        enabled:true,
+    },
+    // breakpoints: {
+    //     375: {
+    //       slidesPerView: 1,
+    //       spaceBetween: 0,
+    //     },
+    //     1024: {
+    //       slidesPerView: 9,
+    //       spaceBetween: 0,
+    //     },
+    //   }
+  });
+
